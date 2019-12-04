@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>672017081.guitarweb.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="log.css">
+<style>
+  body {
+      line-height:2;
+      width: 100%;
+      height: auto;
+      background-image: url("image/4.jpeg");
+  }
+</style>
+</head>
+<body>
+
+	<section class="banner">
+		<header>
+			<div class="wrapper">
+				<a href="#"><img src="image/logo.png" class="h_logo" alt="a" title=""></a>
+				<nav>
+					<ul class="main_nav">
+						<li class="current">
+            <a href="home.html">Home</a></li>
+						<li><a href="guitar.html">Guitar</a></li>
+						<li><a href="music.html">Music</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="signup.html">Sign Up</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="caption">
+			<p class="cap_title">"Music doesn’t lie. If there is something to be changed in this world,
+        then it can only happen through music"</p>
+			<p class="cap_desc">-Jimmy Hendrik </p>
+		</section>
+	</section>
+
+
+	<section class="form">
+		<div class="wrapper">
+			<h3><font color = black;>Welcome</font></h3>
+
+<section class="square">
+
+  <h4><center>Login Page</center></h4><br>
+  <form action="action_page.php" method="post">
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+
+</section>
+
+			<section class="square">
+
+          <h2 style="text-align:center">Admin Profile Card</h2><br><br>
+
+<div class="card">
+  <img src="image/avatar.jpg" alt="Aldyth" style="width:100%">
+  <br><h1>Aldyth Nahak</h1><br>
+  <p class="title">IT Student</p><br>
+  <p>Satya Wacana Christian University</p><br>
+  <p>2017</p>
+
+  <p><a href = "https://www.linkedin.com/in/aldyth-nahak-b73658177/"target="_blank"><button>Contact</button></a></p>
+</div>
+
+
+
+</section>
+
+<section class="square">
+
+  <h2 style="text-align:center">Animation</h2><br><br>
+
+<div id ="myContainer">
+<div id ="myAnimation">
+</div>
+</div>
+
+<script>
+function myMove() {
+var elem = document.getElementById("myAnimation");
+var pos = 0;
+var id = setInterval(frame, 10);
+function frame() {
+if (pos == 200) {
+clearInterval(id);
+} else {
+pos++;
+elem.style.top = pos + 'px';
+elem.style.left = pos + 'px';
+}
+}
+}
+</script>
+<p>
+<button onclick="myMove()">Click Me</button>
+</p>
+</section>
+</div>
+
+	</section>
+
+	<footer>
+    <nav>
+      <ul>
+        <li><a href="https://www.instagram.com/aldyth.n/?hl=bg" target="_blank">Instagram</a></li>
+        <li><a href="https://pixabay.com/photos/"target="_blank">Image</a></li>
+        <li><a href="https://open.spotify.com/user/ozk5qjlvhxwgu029kyf5p68ld?si=uPpJBiLRQh6SlK9kJR1UpQtarget="_blank"">Music</a></li>
+        <li><a href="https://www.routehappy.com/legal/terms"target="_blank">Terms</a></li>
+        <li><a href="https://html.com/privacy/"target="_blank">Privacy</a></li>
+      </ul>
+    </nav>
+		<p class="rights">©aldyth.n <a href="https://www.instagram.com/aldyth.n/?hl=bg">Aldyth Nahak 672017081</a>.</p>
+	</footer>
+
+</body>

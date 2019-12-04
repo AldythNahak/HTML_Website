@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>672017081.guitarweb.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="log.css">
+	<style>
+	  body {
+	      line-height:2;
+	      width: 100%;
+	      height: auto;
+	      background-image: url("image/6.jpeg");
+	  }
+	</style>
+</head>
+<body>
+
+	<section class="banner">
+		<header>
+			<div class="wrapper">
+				<a href="#"><img src="image/logo.png" class="h_logo" alt="a" title=""></a>
+				<nav>
+					<ul class="main_nav">
+						<li class="current">
+            <a href="home.html">Home</a></li>
+						<li><a href="guitar.html">Guitar</a></li>
+						<li><a href="music.html">Music</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="signup.html">Sign Up</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="caption">
+			<p class="cap_title">With a guitar I would be able to express the things I felt in sounds.</p>
+			<p class="cap_desc">- William C. Handy</p>
+		</section>
+	</section>
+
+
+	<section class="form">
+		<div class="wrapper">
+			<h3><font color = black;>Know Me?</font></h3>
+
+			<button id="myBtn">Click Here to know me</button>
+
+
+			<div id="myProfile" class="profile">
+
+
+			  <div class="profile-content">
+			    <span class="close">&times;</span>
+			    <p>Nama :</p><p> Aldyth M. V. Nahak</p>
+					<p>TTL :</p><p> Kupang, 3 Mei 1999</p>
+					<p>Alamat :</p><p>  jln. Kemiri Barat, gang Rambutan no. 47, Sidorejo, Salatiga, jawa Tengah</p>
+					<p>Jenis Kelamin :</p><p> Laki-laki</p>
+					<p>Agama :</p><p> Kristen Protestan</p>
+					<p>Kewarganegaraan :</p><p> Indonesia</p>
+					<p>Hobi:</p><p> Playing guitar, watch movie</p>
+					<p>Pendidikan :</p>
+					<li> SDN Naikoten 1 Kota Kupang, NTT (2006-2011)</li>
+					<li> SMPN 2 Kota Kupang, NTT (2011-2014)</li>
+					<li> SMA Katolik Giovanni Kota Kupang, NTT (2014-2017)</li>
+			  </div>
+
+			</div>
+			<script>
+			// Get the modal
+			var profile = document.getElementById("myProfile");
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks the button, open the modal
+			btn.onclick = function() {
+			  profile.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			  profile.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			  if (event.target == profile) {
+			    profile.style.display = "none";
+			  }
+			}
+			</script>
+		</div>
+	</section>
+
+	<footer>
+    <nav>
+      <ul>
+				<li><a href="https://www.instagram.com/aldyth.n/?hl=bg" target="_blank">Instagram</a></li>
+				<li><a href="https://pixabay.com/photos/"target="_blank">Image</a></li>
+				<li><a href="https://open.spotify.com/user/ozk5qjlvhxwgu029kyf5p68ld?si=uPpJBiLRQh6SlK9kJR1UpQtarget="_blank"">Music</a></li>
+				<li><a href="https://www.routehappy.com/legal/terms"target="_blank">Terms</a></li>
+				<li><a href="https://html.com/privacy/"target="_blank">Privacy</a></li>
+      </ul>
+    </nav>
+		<p class="rights">©aldyth.n <a href="https://www.instagram.com/aldyth.n/?hl=bg">Aldyth Nahak 672017081</a>.</p>
+	</footer>
+
+</body>
